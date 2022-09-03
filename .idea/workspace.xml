@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29ba49cb-33fd-46dd-99b7-c616346d2dc4" name="Changes" comment="Task_2 was done (Operator *)" />
+    <list default="true" id="29ba49cb-33fd-46dd-99b7-c616346d2dc4" name="Changes" comment="Task_4 was done (programm for Name, Age)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2EGV9JijFZhl3mMjxn63Z2iDbe1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -115,7 +120,21 @@
       <option name="presentableId" value="Default" />
       <updated>1662221757967</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Task_4 was done (programm for changed format)">
+      <created>1662225567109</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662225567109</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Task_4 was done (programm for Name, Age)">
+      <created>1662228924448</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662228924448</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +151,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task_1 was done (Changed the variables a,b for different cases)" />
     <MESSAGE value="Task_2 was done (Operator *)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task_2 was done (Operator *)" />
+    <MESSAGE value="Task_4 was done (programm for changed format)" />
+    <MESSAGE value="Task_4 was done (programm for Name, Age)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task_4 was done (programm for Name, Age)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
