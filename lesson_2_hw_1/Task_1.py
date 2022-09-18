@@ -37,3 +37,9 @@ https://xkcd.com/353/
 import__hello__
 Hello world!
 '''
+
+
+'''
+from __future__ import braces
+not a chance
+'''

@@ -7,6 +7,9 @@ while a == 0:
 
 b = int(input('Введите значение переменной b: '))
 c = int(input('Введите значение переменной c: '))
+sub_formula = 4 * a * c
+x1 = -b + (math.sqrt(math.pow(b, 2) - sub_formula)) // (2 * a)
+x2 = -b - (math.sqrt(math.pow(b, 2) - sub_formula)) // (2 * a)
 
-print('Результат решения x1: ', ((-b + (math.sqrt((b * b) - (4 * a * c)))) // (2 * a)))
-print('Результат решения x2: ', ((-b - (math.sqrt((b * b) - (4 * a * c)))) // (2 * a)))
+print('Результат решения x1: ', x1)
+print('Результат решения x2: ', x2)
