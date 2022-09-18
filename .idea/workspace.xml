@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1d312153-18b3-4a0e-aba5-6e4fc3c61e95" name="Changes" comment="Life coding (part.1)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_5_hw_1/Task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5_hw_1/Task_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_5_hw_1/Task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5_hw_1/Task_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_5_hw_1/Task_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5_hw_1/Task_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_5_hw_1/Task_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5_hw_1/Task_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="lesson_6_hw_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663430322088</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="First commit">
+      <created>1663515135511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663515135511</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +179,8 @@
     <MESSAGE value="Task_4 was done (programm for Name, Age)" />
     <MESSAGE value="lesson_4_hw_1 was done" />
     <MESSAGE value="Life coding (part.1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Life coding (part.1)" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

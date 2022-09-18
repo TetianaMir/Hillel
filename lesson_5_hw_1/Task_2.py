@@ -22,23 +22,17 @@ def solve_quadratic_equation(a, b, c):  # always returns 2(!) values: either 2 r
     if D > 0:
         x1 = (-b + math.sqrt(D)) / (2 * a)
         x2 = (-b - math.sqrt(D)) / (2 * a)
-        print('Уравнение имеет два решения')
         return x1, x2
     elif D == 0:
         x1 = -b / (2 * a)
-        print('Уравнение имеет одно решение')
         return x1, None
     else:
-        print('Уравнение не имеет решений')
         return None, None
 
 
 def test():
-    print('Тестирование для чисел: 1, -70, 600 => 60, 10')
     assert solve_quadratic_equation(1, -70, 600) == (60, 10)
-    print('Тестирование для чисел: 4, -4, 1 => 0.5, None')
     assert solve_quadratic_equation(4, -4, 1) == (0.5, None)
-    print('Тестирование для чисел: 1, 1, 1 => None, None')
     assert solve_quadratic_equation(1, 1, 1) == (None, None)
 
 
