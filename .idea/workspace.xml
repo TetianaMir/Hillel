@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d312153-18b3-4a0e-aba5-6e4fc3c61e95" name="Changes" comment="Life coding (part.1)">
+    <list default="true" id="1d312153-18b3-4a0e-aba5-6e4fc3c61e95" name="Changes" comment="Task_4 was done (programm for Name, Age)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_5_hw_1/Task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5_hw_1/Task_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_5_hw_1/Task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5_hw_1/Task_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_5_hw_1/Task_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5_hw_1/Task_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_5_hw_1/Task_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5_hw_1/Task_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_2_hw_1/Task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2_hw_1/Task_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
