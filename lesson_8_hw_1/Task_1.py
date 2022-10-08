@@ -14,9 +14,8 @@ def main():
 
 def index(lst, elem):  # returns integer or None
     for i in range(len(lst)):
-        if lst.__getitem__(i) == elem:
+        if lst[i] == elem:
             return i
-    return None
 
 
 if __name__ == '__main__':

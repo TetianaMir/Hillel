@@ -5,7 +5,7 @@ text = " За результатом дослідження одного анг�
 
 # first checker
 def get_first_and_last_symbols(word: str):
-    if len(word) > 3:
+    if len(word) >= 3:
         return word[0], word[len(word) - 1], word[1:len(word) - 1]
     else:
         return word
@@ -14,7 +14,9 @@ def get_first_and_last_symbols(word: str):
 # second checker
 def get_third_symbols_and_shuffle(word: str):
     new_str = ''
-    if len(word) >= 3:
+    if len(word) <= 2:
+        new_str = word[::-1]
+    elif len(word) >= 3:
         to_shuffle = [word[i:i + 2] for i in range(0, len(word), 2)]
         random.shuffle(to_shuffle)
         for three_letters in to_shuffle:
@@ -28,12 +30,7 @@ def pemrtuate(text: str):
     temporary_array = text.split()
     word_array = []
     for word in temporary_array:
-        if word.__contains__(","):
-            word_array.append(word.replace(",", ' ').rstrip())
-        elif word.__contains__("."):
-            word_array.append(word.replace(".", ' ').rstrip())
-        else:
-            word_array.append(word)
+        word_array.append(word)
     result_array = []
     for word in word_array:
         if len(word) >= 3:
@@ -45,7 +42,7 @@ def pemrtuate(text: str):
             result_array.append(first_symbol + main_text + last_symbol)
         else:
             result_array.append(word)
-    return result_array
+    return ' '.join(result_array)
 
 
 def main():

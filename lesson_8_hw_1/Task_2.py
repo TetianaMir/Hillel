@@ -3,9 +3,12 @@ import copy
 
 def copydeep(array):
     new_array = []
-    if isinstance(array, list):
-        new_array = array
-        return new_array
+    for i in array:
+        if isinstance(i, list):
+            new_array.append(copydeep(i))
+        else:
+            new_array.append(i)
+    return new_array
 
 
 lst1 = ['a', 1, 2.0, ['b']]
