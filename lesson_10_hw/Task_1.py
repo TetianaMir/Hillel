@@ -9,9 +9,14 @@ class Godzilla:
             print("Годзила сыт")
         else:
             print("Годзила скушал человека с весом", person_volume)
-            print("Осталось места в желудке:", (self.stomach_volume - person_volume))
+            print("Осталось места в желудке:", self.stomach_volume - person_volume)
             self.current_volume += person_volume
 
 
-object = Godzilla(100, 10)
-object.method_eat(10)
+def main():
+    object = Godzilla(100, 10)
+    object.method_eat(10)
+
+
+if __name__ == '__main__':
+    main()
