@@ -14,6 +14,7 @@ def expected(*expected_types):
                 raise UnexpectedTypeException("It's unexpected type")
             else:
                 print("The result of functions:", func(*args, **kwargs), "is :", expected_types)
+                return result
         return wrapper
     return decorator
 
@@ -24,7 +25,7 @@ def func(value):
 
 
 def main():
-    func("str")  # expected
+    print(func("example"))  # expected
 
 
 if __name__ == '__main__':
